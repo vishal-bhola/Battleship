@@ -17,4 +17,4 @@ The player will have 4 guesses to try to sink the ship.
 
 * Entering Same co-ordinates will give you a prompt as well as result in decrement of guess count.
 
-![dda] (https://raw.githubusercontent.com/VersatileVishal/Battleship/d52bf7d30b01828c70135334c6e1b7e64a6adb60/img/Capture.PNG)
+![dda](https://raw.githubusercontent.com/VersatileVishal/Battleship/d52bf7d30b01828c70135334c6e1b7e64a6adb60/img/Capture.PNG)
