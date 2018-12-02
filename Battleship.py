@@ -2,7 +2,7 @@ from random import randint
 
 board = []  #Initializing List board as empty list
 
-for x in range(0, 5):
+for x in range(0, 5): #Loop from 0-5 will work for 5 times  
   board.append(["O"] * 5) #Make a Board(Matrix) of 5*5
 
 def print_board(board):
@@ -20,7 +20,7 @@ def random_col(board):
 
 ship_row = random_row(board)
      #Store that random value in the Variable ship_row
-
+  
 ship_col = random_col(board) 
       #Store that random value in the Variable ship_col
 
@@ -50,6 +50,7 @@ for turn in range(4):
 
   guess_row-=1 
   guess_col-=1 
+  
 #Decresing by -1 both the values so as it is reflected in matrix  
 
   if guess_row == ship_row and guess_col == ship_col:
@@ -70,5 +71,5 @@ for turn in range(4):
       
     if (turn == 3):
       print ("Game Over")
-      break
+      break   #So that when game will over it just stop the print_board(board) function to again work
     print_board(board)
