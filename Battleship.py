@@ -48,9 +48,10 @@ for turn in range(4):
   guess_col = int(input("Guess Col: "))
      
 
-  guess_row-=1 #Decresing by -1 both the values so as it is reflected in matrix
+  guess_row-=1 
   guess_col-=1 
-  
+#Decresing by -1 both the values so as it is reflected in matrix  
+
   if guess_row == ship_row and guess_col == ship_col:
     print ("Congratulations! You sank my battleship!")
     break #You win the game and it just came out of the loop
