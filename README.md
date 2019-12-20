@@ -20,6 +20,7 @@ The player will have 4 guesses to try to sink the ship.
 
 ![dda](https://github.com/VersatileVishal/Battleship/blob/master/img/Battleship%20Guess%20same%20agin.PNG)
 
-<!-- For More Please Contact
+<!-- 
+     For More Please Contact
      vishalbhola5@gmail.com
 -->
